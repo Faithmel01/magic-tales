@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>📚 Magical Reading Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>✨ Choose Your Story Adventure!</h1>
+
+  <div id="book-gallery">
+    <!-- Top row -->
+    <div class="book-card" onclick="showStory('frozen')">
+      <img src="FREE Disney's FROZEN Printable Activity Sheets.jpg" alt="Frozen">
+      <p>❄️ Frozen</p>
+    </div>
+    <div class="book-card" onclick="showStory('beauty')">
+      <img src="Beauty and the Beast Big Golden Book (Disney Beauty and the Beast).jpg" alt="Beauty">
+      <p>🕯️ Beauty & the Beast</p>
+    </div>
+    <div class="book-card" onclick="showStory('aladdin')">
+      <img src="Disney Disney& &Aladdin& Hardcover Book.jpg" alt="Aladdin">
+      <p>🕌 Aladdin</p>
+    </div>
+    <div class="book-card" onclick="showStory('mermaid')">
+      <img src="download (1).jpg" alt="Mermaid">
+      <p>🧜‍♀️ Little Mermaid</p>
+    </div>
+    <div class="book-card" onclick="showStory('poppins')">
+      <img src="Mary Poppins.jpg" alt="Poppins">
+      <p>☂️ Mary Poppins</p>
+    </div>
+
+    <!-- Bottom row -->
+    <div class="book-card" onclick="showStory('lightning')">
+      <img src="Cars.jpg" alt="Lightning McQueen">
+      <p>🏁 Cars</p>
+    </div>
+    <div class="book-card" onclick="showStory('peterpan')">
+      <img src="peter pan.jpg" alt="Peter Pan">
+      <p>🏴‍☠️ Peter Pan</p>
+    </div>
+    <div class="book-card" onclick="showStory('dragon')">
+      <img src="dragon.jpg" alt="How to Train Your Dragon">
+      <p>🦖 Train Your Dragon</p>
+    </div>
+    <div class="book-card" onclick="showStory('lionking')">
+      <img src="lion.jpg" alt="Lion King">
+      <p>🦁 Lion King</p>
+    </div>
+    <div class="book-card" onclick="showStory('harrypotter')">
+      <img src="harry potter.jpg" alt="Harry Potter">
+      <p>🧙 Harry Potter</p>
+    </div>
+  </div>
+
+  <div id="story-box">
+    <h2 id="story-title"></h2>
+    <p id="story-text"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
